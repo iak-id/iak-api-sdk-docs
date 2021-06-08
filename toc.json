@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "docs/introduction.md"
+    },
+    {
+      "type": "group",
+      "title": "PHP",
+      "items": [
+        {
+          "type": "item",
+          "title": "Installation",
+          "uri": "docs/php/installation.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "NodeJs",
+      "items": [
+        {
+          "type": "item",
+          "title": "Installation",
+          "uri": "docs/node-js/installation.md"
+        }
+      ]
+    }
+  ]
+}
