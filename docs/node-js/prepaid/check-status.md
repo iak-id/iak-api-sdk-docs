@@ -1,4 +1,4 @@
-# Prepaid Check Status
+# Check Status
 Prepaid service to check your transaction status. You must use the same refId you used to top up to see the transaction status.
 
 ## Available fields

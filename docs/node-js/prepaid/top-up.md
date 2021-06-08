@@ -1,4 +1,4 @@
-# Prepaid Top Up
+# Top Up
 Prepaid service to send a top up request. You can see [our price list](#prepaid-price-list) to see the list of product code you can use.
 
 ## Available fields

@@ -1,4 +1,4 @@
-# Prepaid Price List
+# Price List
 Prepaid service to see your prepaid products' price list. You see the list of the product type and operator on this [link](https://api.iak.id/docs/reference/docs/prepaid/product-type.md).
 
 ## Available fields
@@ -8,7 +8,10 @@ Prepaid service to see your prepaid products' price list. You see the list of th
 | operator | Operator type. See [here](https://api.iak.id/docs/reference/docs/prepaid/product-type.md) for operator type list | No | - |
 | status | Product status. 'all', 'active', 'non active' | No | all |
 
-## Code request example (all products no matter what the status is)
+## Code request example
+
+### All products
+
 ```js
 const { IAKPrepaid } = require('@iak-id/iak-api-server-js');
 
@@ -19,7 +22,7 @@ new IAKPrepaid().pricelist().then((response) => {
 });
 ```
 
-## Code request example (only game type products)
+### Only game type products
 ```js
 const { IAKPrepaid } = require('@iak-id/iak-api-server-js');
 
@@ -32,7 +35,7 @@ new IAKPrepaid().pricelist({
 });
 ```
 
-## Code request example (only mobile legends game products)
+### Only mobile legends game products
 ```js
 const { IAKPrepaid } = require('@iak-id/iak-api-server-js');
 
@@ -46,7 +49,7 @@ new IAKPrepaid().pricelist({
 });
 ```
 
-## Code request example (only active game products)
+### Only active game products
 ```js
 const { IAKPrepaid } = require('@iak-id/iak-api-server-js');
 
@@ -60,8 +63,9 @@ new IAKPrepaid().pricelist({
 });
 ```
 
-## Success response example of active mobile legend game product
+## Success response example
 ```js
+/*Active mobile legend game products*/
 {
   status: 'success',
   code: 200,

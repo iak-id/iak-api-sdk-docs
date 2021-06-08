@@ -1,4 +1,4 @@
-# Postpaid Payment
+# Payment
 Postpaid service to pay your customer's postpaid transaction. Unlike postpaid inquiry services, there are no difference between postpaid products on how to do payment transaction.
 
 ## Available fields
@@ -19,8 +19,9 @@ new IAKPostpaid().payment({
 });
 ```
 
-## Success response of BPJS product (from previous BPJS inquiry)
+## Success response example
 ```js
+/*BPJS product*/
 {
   status: 'success',
   code: 200,

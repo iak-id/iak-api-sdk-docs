@@ -1,4 +1,4 @@
-# Prepaid Inquiry Game ID
+# Inquiry Game ID
 Prepaid service to check whether your customer game id is existed or not. You can see the list of the game code and customer game id format in this [link](https://api.iak.id/docs/reference/docs/prepaid/game-format.md#inquiry-game-id).
 
 ## Available fields

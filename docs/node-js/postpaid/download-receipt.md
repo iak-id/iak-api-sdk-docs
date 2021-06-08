@@ -1,4 +1,4 @@
-# Postpaid Download Receipt
+# Download Receipt
 Postpaid service to get your customer's postpaid transaction receipt.
 
 ## Available fields
@@ -19,8 +19,9 @@ new IAKPostpaid().downloadReceipt({
 });
 ```
 
-## Success response of BPJS product (from previous BPJS inquiry)
+## Success response example
 ```js
+/*BPJS product*/
 {
   status: 'success',
   code: 200,

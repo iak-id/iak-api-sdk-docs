@@ -3,9 +3,9 @@ These are guides about how we handle errors in this SDK.
 
 ## Failed response code
 
-All response that is not in this following list will be seen as error or exception, to be exact as ApiError.
+All response that is not in this following list will be seen as error or exception, to be exact as ApiError. You can see our [Prepaid Response Code](https://api.iak.id/docs/reference/docs/prepaid/response-code.md) and [Postpaid Response Code](https://api.iak.id/docs/reference/docs/postpaid/response-code.md) to see the complete list of our response codes.
 
-Here is the list of the success response code.
+Here is the list of our success response code.
 1. SUCCESS / INQUIRY SUCCESS / PAYMENT SUCCESS (rc: 00)
 2. PROCESS (rc: 39)
 3. PAYMENT_REQUEST_NOT_RECEIVED_YET (rc: 42)

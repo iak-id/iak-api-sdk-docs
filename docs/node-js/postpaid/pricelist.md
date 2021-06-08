@@ -1,4 +1,4 @@
-# Postpaid Price List
+# Price List
 Postpaid service to see your postpaid products' price list. You can see the list of the product type on this [link](https://api.iak.id/docs/reference/docs/postpaid/core/price-list.md).
 
 ## Available fields
@@ -8,7 +8,9 @@ Postpaid service to see your postpaid products' price list. You can see the list
 | province | 34 Provinces in Indonesia (Only for PDAM type) | No | - |
 | status | Product Status. 'all', 'active', 'non active' | No | all |
 
-## Code request example (all products no matter what the status is)
+## Code request example
+
+### All products
 ```js
 const { IAKPostpaid } = require('@iak-id/iak-api-server-js');
 
@@ -19,7 +21,7 @@ new IAKPostpaid().pricelist().then((response) => {
 });
 ```
 
-## Code request example (only BPJS type products)
+### BPJS products
 ```js
 const { IAKPostpaid } = require('@iak-id/iak-api-server-js');
 
@@ -32,7 +34,7 @@ new IAKPostpaid().pricelist({
 });
 ```
 
-## Code request example (only PDAM jakarta products)
+### PDAM jakarta products
 ```js
 const { IAKPostpaid } = require('@iak-id/iak-api-server-js');
 
@@ -46,7 +48,7 @@ new IAKPostpaid().pricelist({
 });
 ```
 
-## Code request example (only active PDAM products)
+### Only active PDAM products
 ```js
 const { IAKPostpaid } = require('@iak-id/iak-api-server-js');
 
@@ -60,8 +62,9 @@ new IAKPostpaid().pricelist({
 });
 ```
 
-## Success response example of PDAM jakarta products
+## Success response example
 ```js
+/*PDAM jakarta products*/
 {
   status: 'success',
   code: 200,

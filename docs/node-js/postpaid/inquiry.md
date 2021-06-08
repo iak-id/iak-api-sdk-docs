@@ -1,4 +1,4 @@
-# Postpaid Inquiry
+# Inquiry
 Postpaid service to inquire your postpaid transaction. To see the complete details of inquiring your postpaid transaction, see our [API Documentation](https://api.iak.id/docs/reference/docs/postpaid/flow.md) on the Core API section on the Postpaid Section.
 
 ## Available fields
@@ -20,7 +20,7 @@ const inquiryRequest = {
   refId: 'TPhgBfgIU4',
 };
 
-/*BPJS*/
+/*BPJS products*/
 const inquiryRequest = {
   code: 'BPJS',
   hp: '8801234560001',
@@ -43,8 +43,9 @@ new IAKPostpaid().inquiry(inquiryRequest).then((response) => {
 });
 ```
 
-## Success response example of BPJS product
+## Success response example
 ```js
+/*BPJS product*/
 {
   status: 'success',
   code: 200,

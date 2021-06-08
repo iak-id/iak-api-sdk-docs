@@ -1,4 +1,4 @@
-# Postpaid Check Status
+# Check Status
 Postpaid service to check your customer's postpaid transaction status.
 
 ## Available fields
@@ -19,8 +19,11 @@ new IAKPostpaid().checkStatus({
 });
 ```
 
-## Success response of BPJS product (from previous BPJS inquiry) after payment success
+## Success response example
+
+### After payment success
 ```js
+/*BPJS product*/
 {
   status: 'success',
   code: 200,
@@ -50,8 +53,9 @@ new IAKPostpaid().checkStatus({
 }
 ```
 
-## Success response of BPJS product after inquiry and before payment
+### Before payment success
 ```js
+/*BPJS product*/
 {
   status: 'success',
   code: 200,

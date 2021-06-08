@@ -37,7 +37,7 @@
         },
         {
           "type": "group",
-          "title": "Prepaid Services",
+          "title": "Prepaid",
           "items": [
             {
               "type": "item",
@@ -46,49 +46,44 @@
             },
             {
               "type": "item",
-              "title": "Check Balance Service",
+              "title": "Check Balance",
               "uri": "docs/node-js/prepaid/check-balance.md"
             },
             {
               "type": "item",
-              "title": "Pricelist Service",
+              "title": "Price List",
               "uri": "docs/node-js/prepaid/pricelist.md"
             },
             {
               "type": "item",
-              "title": "Top Up Service",
+              "title": "Top Up",
               "uri": "docs/node-js/prepaid/top-up.md"
             },
             {
               "type": "item",
-              "title": "Check Status Service",
+              "title": "Check Status ",
               "uri": "docs/node-js/prepaid/check-status.md"
             },
             {
               "type": "item",
-              "title": "Inquiry Game ID Service",
+              "title": "Inquiry Game ID",
               "uri": "docs/node-js/prepaid/inquiry-game-id.md"
             },
             {
               "type": "item",
-              "title": "Inquiry Game Server Service",
+              "title": "Inquiry Game Server",
               "uri": "docs/node-js/prepaid/inquiry-game-server.md"
             },
             {
               "type": "item",
-              "title": "Inquiry PLN Service",
+              "title": "Inquiry PLN",
               "uri": "docs/node-js/prepaid/inquiry-pln.md"
-            },
-            {
-              "type": "item",
-              "title": "Sandbox Report and Callback",
-              "uri": "docs/node-js/prepaid/sandbox-callback.md"
             }
           ]
         },
         {
           "type": "group",
-          "title": "Postpaid Services",
+          "title": "Postpaid",
           "items": [
             {
               "type": "item",
@@ -97,27 +92,27 @@
             },
             {
               "type": "item",
-              "title": "Pricelist Service",
+              "title": "Price List",
               "uri": "docs/node-js/postpaid/pricelist.md"
             },
             {
               "type": "item",
-              "title": "Inquiry Service",
+              "title": "Inquiry",
               "uri": "docs/node-js/postpaid/inquiry.md"
             },
             {
               "type": "item",
-              "title": "Payment Service",
+              "title": "Payment",
               "uri": "docs/node-js/postpaid/payment.md"
             },
             {
               "type": "item",
-              "title": "Check Status Service",
+              "title": "Check Status",
               "uri": "docs/node-js/postpaid/check-status.md"
             },
             {
               "type": "item",
-              "title": "Download Receipt Service",
+              "title": "Download Receipt",
               "uri": "docs/node-js/postpaid/download-receipt.md"
             }
           ]
@@ -128,6 +123,11 @@
           "uri": "docs/node-js/error-handling.md"
         }
       ]
+    },
+    {
+      "type": "item",
+      "title": "Additional Guides",
+      "uri": "docs/additional-guides.md"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Prepaid Check Balance
+# Check Balance
 Function you can use to check or see your IAK balance.
 
 ## Code request example

@@ -1,4 +1,4 @@
-# Prepaid Inquiry PLN
+# Inquiry PLN
 Prepaid service to check whether the requested PLN subscriber is existed or not. You can use both customer subscriber id or customer electric meter number in the customerId property.
 
 ## Available fields

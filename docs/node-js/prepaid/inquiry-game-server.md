@@ -1,4 +1,4 @@
-# Prepaid Inquiry Game Server
+# Inquiry Game Server
 Prepaid service to check whether the requested game server is existed or not. You can see the list of the game code in this [link](https://api.iak.id/docs/reference/docs/prepaid/game-format.md#inquiry-game-id).
 
 ## Available fields
