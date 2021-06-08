@@ -22,7 +22,7 @@ We will start things off with configuring IAK API credential which is required t
 ### Parameter Passing
 Passing your IAK API configuration as parameters when creating an IAK instance in your project.
 
-### Available fields
+Available fields
 
 | Field Name | Description | Mandatory | Default Value |
 |---|---|---|---|
