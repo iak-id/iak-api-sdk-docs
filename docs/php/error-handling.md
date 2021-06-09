@@ -41,7 +41,7 @@ Error Response
     'status' => 'failed',
     'code' => 408,
     'data' => [
-        'error' => 'Connectin Timeout Error. Please check your internet connection and try again'
+        'error' => 'Connection Timeout Error. Please check your internet connection and try again'
     ]
 ]
 ```
