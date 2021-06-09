@@ -110,6 +110,11 @@
           "type": "item",
           "title": "Error Handling",
           "uri": "docs/php/error-handling.md"
+        },
+        {
+          "type": "item",
+          "title": "Changelog",
+          "uri": "docs/php/changelog.md"
         }
       ]
     },
