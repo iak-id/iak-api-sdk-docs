@@ -28,7 +28,10 @@ Before using this SDK, you must set your credential first, so you can access the
 
 There are two ways to set your credential.
 
-1. Use your environment variable (highly recommended for security issues)
+1. Use your environment variable (highly recommended for security issues) by doing this steps.
+
+* Create file with name as .env in your root directory project
+* Fill the .env file with this field
 ```
 IAK_STAGE=sandbox-or-production
 IAK_USER_HP=your-username
