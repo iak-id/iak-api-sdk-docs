@@ -218,6 +218,11 @@
           "type": "item",
           "title": "Error Handling",
           "uri": "docs/node-js/error-handling.md"
+        },
+        {
+          "type": "item",
+          "title": "Changelog",
+          "uri": "docs/node-js/changelog.md"
         }
       ]
     },
