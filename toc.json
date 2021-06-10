@@ -222,7 +222,7 @@
         {
           "type": "item",
           "title": "Changelog",
-          "uri": "docs/node-js/change-log.md"
+          "uri": "docs/node-js/changelog.md"
         }
       ]
     },
