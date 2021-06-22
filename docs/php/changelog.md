@@ -3,9 +3,10 @@ Here you can see any updates and improvements we have made to make this SDK more
 
 > Current Version: **1.0.0**
 
-## Version 1.0.0
-**Kick Off Features**
+## Version 1.0.0 - 22 June 2021
+PHP version support: **^5.6** || **^7.0**
 
+**Kick Off Features**
 - Prepaid Services
     - Check Balance
     - Price List
