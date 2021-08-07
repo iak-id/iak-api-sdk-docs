@@ -1,9 +1,13 @@
 # Getting Started
 
 ## SDK Code Example
-You can use below snippet code to use our check balance service on prepaid API to get started on our SDK.
+You can use below snippet code to use our check balance service on prepaid API and get our pricelist on postpaid API to get started on our SDK.
 ```php
 <?php
+require_once __DIR__ . "/vendor/autoload.php";
+
+// import IAKPrepaid Class
+use IakID\IakApiPHP\Services\IAKPrepaid;
 
 $iakPrepaid = new IAKPrepaid([
   'userHp' => 'your-username',
@@ -14,6 +18,24 @@ $iakPrepaid = new IAKPrepaid([
 $balanceResult = $iakPrepaid->checkBalance();
 echo $balanceResult;
 ```
+
+```php
+<?php
+require_once __DIR__ . "/vendor/autoload.php";
+
+// Import IAKPostpaid Class
+use IakID\IakApiPHP\Services\IAKPostpaid;
+
+$iakPostpaid = new IAKPostpaid([
+  'userHp' => 'your-username',
+  'apiKey' => 'your-api-key-depending-on-stage',
+  'stage' => 'sandbox-or-production'
+]);
+
+$pricelistResult = $iakPostpaid->pricelist();
+echo $pricelistResult;
+```
+
 ---
 
 ## Set your credential
