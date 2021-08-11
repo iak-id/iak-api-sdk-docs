@@ -9,10 +9,14 @@ Available fields
 
 Code Example
 ```java
-$iakPostpaid = new IAKPostpaid();
-echo $iakPostpaid->payment([
-    'trId' => 1
-]);
+IAK iak = new IAK();
+iak.setApikey("your_key");
+iak.setNohp("your_username");
+iak.setStage("sandbox");
+
+// To pay inquiry pospaid product you can see code below
+// where '9934079' is from inquiry response
+System.out.println(iak.postpaid().pay_postpaid_inquiry("9934079"));
 ```
 Response Example
 ```java

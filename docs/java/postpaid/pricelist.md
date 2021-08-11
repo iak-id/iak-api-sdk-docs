@@ -13,25 +13,18 @@ Available fields
 
 Code Example without parameter
 ```java
-$iakPostpaid = new IAKPostpaid();
-echo $iakPostpaid->pricelist();
-```
+IAK iak = new IAK();
+iak.setApikey("your_key");
+iak.setNohp("your_username");
+iak.setStage("sandbox");
 
-Code Example with type parameter
-```java
-$iakPostpaid = new IAKPostpaid();
-echo $iakPostpaid->pricelist([
-    'type' => 'pdam'
-]);
-```
+// To show pdam products by province you can use code below
+System.out.println(iak.postpaid().pricelist_postpaid("pdam", "active", "Jakarta"));
 
-Code Example with type and status parameter
-```java
-$iakPostpaid = new IAKPostpaid();
-echo $iakPostpaid->pricelist([
-    'type' => 'pdam',
-    'status' => 'all'
-]);
+// If you want to show all pdam product you can see this code
+System.out.println(iak.postpaid().pricelist_postpaid("pdam", "active", null));
+
+// If you want to show other products you can change 'pdam' to other product
 ```
 
 Response Example

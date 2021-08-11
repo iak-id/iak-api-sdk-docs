@@ -9,10 +9,13 @@ Available fields
 
 Code Example
 ```java
-$iakPostpaid = new IAKPostpaid();
-echo $iakPostpaid->checkStatus([
-    'refId' => '123'
-]);
+IAK iak = new IAK();
+iak.setApikey("your_key");
+iak.setNohp("your_username");
+iak.setStage("sandbox");
+
+System.out.println(iak.postpaid().check_status_postpaid_payment("postpaid_order_pbb"));
+//System.out.println(iak.postpaid().check_status_postpaid_payment("your_ref_id"));
 ```
 Response Example
 ```java

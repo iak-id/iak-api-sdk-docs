@@ -5,4 +5,4 @@ Follow this step to install our Java SDK
 1. Download latest version from <a href="https://github.com/teguh02/IAK-Java-SDK/releases">here</a>
 2. Unzip and move IAK.java into your project folder like this
     ![image](https://user-images.githubusercontent.com/43981051/128820505-52873ddf-f23d-426d-bb34-f2edfc5a2070.png)
-3. Import to your main class and follow from sample code below
+3. Import to your main class and follow from sample code in this documentation
