@@ -25,7 +25,7 @@ System.out.println(iak.postpaid().inquiry_postpaid("postpaid_order02", "01100146
 System.out.println(iak.postpaid().inquiry_postpaid("postpaid_order03", "6391601201", "FNMEGA", null));
 
 // If you want to inquiry E Samsat product, you must use code like this
-        // where '0212502110170100' is nomor_identitas (Registered identity number / KTP)
+// where '0212502110170100' is nomor_identitas (Registered identity number / KTP)
 System.out.println(iak.postpaid().inquiry_postpaid_esamsat("postpaid_order_esamsat", "9658548523568701", "ESAMSAT.JABAR", "0212502110170100"));
 
 // Then if you want to inquiry PBB product, you can use previous code (not E samsat inquiry code)
