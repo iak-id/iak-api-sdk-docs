@@ -11,10 +11,6 @@
       "uri": "docs/additional-guides.md"
     },
     {
-      "type": "divider",
-      "title": "Official"
-    },
-    {
       "type": "group",
       "title": "PHP",
       "items": [
@@ -243,6 +239,11 @@
     {
       "type": "divider",
       "title": "Unofficial"
+    },
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "docs/unofficial.md"
     },
     {
       "type": "group",
