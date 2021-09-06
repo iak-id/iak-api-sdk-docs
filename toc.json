@@ -6,6 +6,15 @@
       "uri": "docs/introduction.md"
     },
     {
+      "type": "item",
+      "title": "Additional Guides",
+      "uri": "docs/additional-guides.md"
+    },
+    {
+      "type": "divider",
+      "title": "Official"
+    },
+    {
       "type": "group",
       "title": "PHP",
       "items": [
@@ -232,6 +241,10 @@
       ]
     },
     {
+      "type": "divider",
+      "title": "Unofficial"
+    },
+    {
       "type": "group",
       "title": "Java",
       "items": [
@@ -343,11 +356,6 @@
           "uri": "docs/java/changelog.md"
         }
       ]
-    },
-    {
-      "type": "item",
-      "title": "Additional Guides",
-      "uri": "docs/additional-guides.md"
     }
   ]
 }
