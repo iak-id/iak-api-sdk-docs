@@ -232,6 +232,119 @@
       ]
     },
     {
+      "type": "group",
+      "title": "Java",
+      "items": [
+        {
+          "type": "item",
+          "title": "Introduction",
+          "uri": "docs/java/introduction.md"
+        },
+        {
+          "type": "item",
+          "title": "Installation",
+          "uri": "docs/java/installation.md"
+        },
+        {
+          "type": "item",
+          "title": "Getting Started",
+          "uri": "docs/java/getting-started.md"
+        },
+        {
+          "type": "group",
+          "title": "Prepaid",
+          "items": [
+            {
+              "type": "item",
+              "title": "Introduction",
+              "uri": "docs/java/prepaid/introduction.md"
+            },
+            {
+              "type": "item",
+              "title": "Check Balance",
+              "uri": "docs/java/prepaid/check-balance.md"
+            },
+            {
+              "type": "item",
+              "title": "Price List",
+              "uri": "docs/java/prepaid/pricelist.md"
+            },
+            {
+              "type": "item",
+              "title": "Top Up",
+              "uri": "docs/java/prepaid/top-up.md"
+            },
+            {
+              "type": "item",
+              "title": "Check Status",
+              "uri": "docs/java/prepaid/check-status.md"
+            },
+            {
+              "type": "item",
+              "title": "Inquiry Game ID",
+              "uri": "docs/java/prepaid/inquiry-game-id.md"
+            },
+            {
+              "type": "item",
+              "title": "Inquiry Game Server",
+              "uri": "docs/java/prepaid/inquiry-game-server.md"
+            },
+            {
+              "type": "item",
+              "title": "Inquiry PLN",
+              "uri": "docs/java/prepaid/inquiry-pln.md"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Postpaid",
+          "items": [
+            {
+              "type": "item",
+              "title": "Introduction",
+              "uri": "docs/java/postpaid/introduction.md"
+            },
+            {
+              "type": "item",
+              "title": "Price List",
+              "uri": "docs/java/postpaid/pricelist.md"
+            },
+            {
+              "type": "item",
+              "title": "Inquiry",
+              "uri": "docs/java/postpaid/inquiry.md"
+            },
+            {
+              "type": "item",
+              "title": "Payment",
+              "uri": "docs/java/postpaid/payment.md"
+            },
+            {
+              "type": "item",
+              "title": "Check Status",
+              "uri": "docs/java/postpaid/check-status.md"
+            },
+            {
+              "type": "item",
+              "title": "Download Receipt",
+              "uri": "docs/java/postpaid/download-receipt.md"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "title": "Error Handling",
+          "uri": "docs/java/error-handling.md"
+        },
+        {
+          "type": "item",
+          "title": "Changelog",
+          "uri": "docs/java/changelog.md"
+        }
+      ]
+    },
+    {
       "type": "item",
       "title": "Additional Guides",
       "uri": "docs/additional-guides.md"
